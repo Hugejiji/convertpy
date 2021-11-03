@@ -1,5 +1,4 @@
 import csv
-import json
 names = []
 
 with open("Athletes.csv") as file:
@@ -27,6 +26,11 @@ def sort_lastname(names):
 #sorted_x = sorted(sort_lastname(names).values(), key=lambda kv: kv, reverse=True)
 #print(sorted_x)
 
-sorted_x = sorted(sort_lastname(names).items(), key=lambda kv: kv[1], reverse=True)
-json_x = json.dumps(sorted_x, indent=2)
-print(json_x)
+
+# Json to get indent in output 
+#json_x = json.dumps(sorted_x, indent=2)
+#print(json_x)
+
+sorted_x = sorted(sort_lastname(names).items(), key=lambda kv: kv[1], reverse=False)
+print(sorted_x)
+
