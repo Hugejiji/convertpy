@@ -1,10 +1,16 @@
-# Tokyo Olympic Summergames 
+# Tokyo Olympic Summer Games 
+
 Project for learning Data visualizion using a Dataset from Keggle.
-This includs Data from the Tokyo Summer Olympics 2020.
-I wanted to learn how to set Data with eacher other in usefull relationship, so that u can Vialize certain Statistik in regards to the Games.
+
+This includs Data from the Tokyo Summer Olympics 2020, which is downloaded and used as a csv file format so that you can easlie read every input and store it into lists for later ploting. 
+For this purpose I chose to learn more about the used python libary matplotlib as well as pandas.
+
+Running trough some problems when working with pandas I decided to just use the csv Libary to take the input from the csv file and sort it for my specific use. 
+
+Trying to set Data into usefull relationship so that you actually vizualize it results into getting a basic understanding and information about the Summer Games. 
 
 
-For example which are the catoggersy with most participants :
+For example what are the catoggersy with most participants :
 
 ![image](/assets/images/Most_popular_Activity.png) 
 
