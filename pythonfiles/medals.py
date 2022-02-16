@@ -5,6 +5,7 @@ rank = 10
 #bring it into right shape for ploting it 
 class csvtransfer():
   def load_data(self,rank):
+    totalmedals = []
     goldmedals = []
     silvermedals = []
     bronzemedals = []
@@ -14,14 +15,15 @@ class csvtransfer():
       for row in reader:
         if int(row["Rank"]) < rank:
           top_ranked.append(row["Country Code"])
+          totalmedals.append(int(row["Total"]))
           goldmedals.append(int(row["Gold Medal"]))
           silvermedals.append(int(row["Silver Medal"]))
           bronzemedals.append(int(row["Bronze Medal"]))
-      return goldmedals, silvermedals, bronzemedals, top_ranked
+      return totalmedals, goldmedals, silvermedals, bronzemedals, top_ranked
 
 newcase = csvtransfer()
 #bind return to a value 
-goldmedals, silvermedals,bronzemedals,top_ranked = newcase.load_data(rank)
+totalmedals, goldmedals, silvermedals,bronzemedals,top_ranked = newcase.load_data(rank)
 width = 0.3
 ind = np.arange(len(top_ranked))
 fig, ax = plt.subplots()
@@ -50,6 +52,7 @@ ax.set_yticks(ind + width/2, top_ranked)
 ax.legend()
 
 plt.show()
+
 
 
 
