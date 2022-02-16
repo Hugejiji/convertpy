@@ -3,23 +3,25 @@ rank = 10
 
 #create loading function for required Data
 #bring it into right shape for ploting it 
-def load_data(rank):
-  goldmedals = []
-  silvermedals = []
-  bronzemedals = []
-  top_ranked = []
-  with open("archive/medals_total.csv", "r") as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-      if int(row["Rank"]) < rank:
-        top_ranked.append(row["Country Code"])
-        goldmedals.append(int(row["Gold Medal"]))
-        silvermedals.append(int(row["Silver Medal"]))
-        bronzemedals.append(int(row["Bronze Medal"]))
-    return goldmedals, silvermedals, bronzemedals, top_ranked
+class csvtransfer():
+  def load_data(self,rank):
+    goldmedals = []
+    silvermedals = []
+    bronzemedals = []
+    top_ranked = []
+    with open("archive/medals_total.csv", "r") as csvfile:
+      reader = csv.DictReader(csvfile)
+      for row in reader:
+        if int(row["Rank"]) < rank:
+          top_ranked.append(row["Country Code"])
+          goldmedals.append(int(row["Gold Medal"]))
+          silvermedals.append(int(row["Silver Medal"]))
+          bronzemedals.append(int(row["Bronze Medal"]))
+      return goldmedals, silvermedals, bronzemedals, top_ranked
 
+newcase = csvtransfer()
 #bind return to a value 
-goldmedals, silvermedals,bronzemedals,top_ranked = load_data(rank)
+goldmedals, silvermedals,bronzemedals,top_ranked = newcase.load_data(rank)
 width = 0.3
 ind = np.arange(len(top_ranked))
 fig, ax = plt.subplots()
