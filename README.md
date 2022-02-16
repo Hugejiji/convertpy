@@ -1,5 +1,6 @@
-# convertpy
+# Olympia
+Project for learning Data visualizion using a Dataset from Keggle.
+This includs Data from the Tokyo Summer Olympics 2020.
+I wanted to learn how to set Data with eacher other in usefull relationship, so that u can Vialize certain Statistik in regards to the Games.
+For example to know which Country has won the Most amount of Goldmedals in this Years Event. 
 
-Working with pandas and matplotlib to get an idea about cleaning and visualizing Data for future Projects 
-
-Olympia.py takes Datafiles form archive dir downloaded form kaggle
