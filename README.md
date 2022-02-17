@@ -33,13 +33,20 @@ If you take a specific country, what is its "favoirte" and most popular sport in
 Teste for Germany, Greece, England, Usa, Norwegen, Brazilien 
 --> Aussage über die Favorisierteste Sportart in jedem Land? 
 Germany:
+![image](/assets/images/Popular_Sport_German_b.png)
+
+Intrestgliny enough there are very few Sports in Germany witch have high amount of paticipents. Therfore there is a very bright spectrum of all kind of sports.
+
 ![image](/assets/images/Popular_Sport_German_a.png)
 
-Intrestgliny enough there are very few Sports in Germany witch a high amount of paticipents. Therfore there is a very bright spectrum of all kind of sports.
+Participant Count < 15: 
 
-![image](/assets/images/Popular_Sport_German_b.png)
-Even more:
 ![image](/assets/images/Popular_Sport_Germany.png)
+
+
+
+
+
 
 Norway:
 ![image](/assets/images/Popular_Sport_Norway.png)
