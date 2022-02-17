@@ -50,7 +50,7 @@ Greece:
 ![image](/assets/images/Popular_Sport_Greece.png)
 
 
-BraziL
+Brazil
 ![image](/assets/images/Popular_Sport_Brazil.png)
 
 
