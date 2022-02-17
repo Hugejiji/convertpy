@@ -44,15 +44,16 @@ Participant Count < 15:
 ![image](/assets/images/Popular_Sport_Germany.png)
 
 
+
+Other Countrys:
+
+
 ![image](/assets/images/Popular_Sport_Norway.png)
 
-Norway
 
-Greece:
 ![image](/assets/images/Popular_Sport_Greece.png)
 
 
-Brazil
 ![image](/assets/images/Popular_Sport_Brazil.png)
 
 
