@@ -37,10 +37,9 @@ Germany:
 
 Intrestgliny enough there are very few Sports in Germany witch a high amount of paticipents. Therfore there is a very bright spectrum of all kind of sports.
 
-![image](/assets/images/Popular_Sport_Germany_b.png)
-
+![image](/assets/images/Popular_Sport_German_b.png)
 Even more:
-![image](/assets/images/Popular_Sport_Germany.png)
+![image](/assets/images/Popular_Sport_German.png)
 
 Norway:
 ![image](/assets/images/Popular_Sport_Norway.png)
