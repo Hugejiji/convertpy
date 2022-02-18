@@ -40,12 +40,12 @@ Tested for Germany, Greece, USA, Norway, Brazil:
 Germany:
 ![image](/assets/images/Popular_Sport_German_b.png)
 
-Intrestgliny enough there are very few Sports in Germany which have a high amount of participants. Therefore there is a very bright spectrum of all kinds of sports.
+Intrestgliny enough, the most participants in Germany by far do  Athletics, after that there are very few Sports which have a high amount of participants. 
 
 ![image](/assets/images/Popular_Sport_German_a.png)
 
 
-By reducing the minimum amount of participants even furgterm, we get an even vaster spread of Sports: 
+By reducing the minimum amount of participants even furhter, we get an even vaster spread of Sports: 
 
 ![image](/assets/images/Popular_Sport_Germany.png)
 
