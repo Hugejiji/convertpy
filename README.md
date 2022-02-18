@@ -24,7 +24,9 @@ The following images show a quick comparison between countries in terms of Medal
 
 
 ![image](/assets/images/GoldVsSilverVsBronze.png)
+Interestingly you can see that even though ROC(Russian Olympic Committee) has won far more silver medals than Japan(ROC = 28, Japan=14), Japan still has won a lot more gold medals. 
 
+Also, the USA has a very even spread with 39 Gold Medals, 41 Silver Medals, and 33 Bronze Medals. 
 
 Top 9 Countries:
 ![image](/assets/images/GoldVsSilvertop9png.png)
