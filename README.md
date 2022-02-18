@@ -35,7 +35,7 @@ Top 9 Countries:
 
 If you take a specific country, what is its „favorite“ and most popular sport?
 
-Tested for Germany, Greece, England, USA , Norway, Brazil:  
+Tested for Germany, Greece, USA, Norway, Brazil:  
 
 Germany:
 ![image](/assets/images/Popular_Sport_German_b.png)
