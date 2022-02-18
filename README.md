@@ -7,7 +7,7 @@ For this purpose, I chose to learn more about the used python library matplotlib
 
 Running through some problems when working with pandas I decided to just use the CSV Libary to take the input from the CSV file and sort it for my specific use. 
 
-Trying to set Data into a useful relationship so that you can visualize it results in getting a basic understanding and information about the Games. 
+Trying to set Data into a useful relationship so that you can visualize the results to get a basic understanding and information about the Games. 
 
 
 For example, which are the categories with most participants :
