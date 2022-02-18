@@ -1,45 +1,49 @@
 # Tokyo Olympic Summer Games 
 
-Project for learning Data visualizion using a Dataset from Keggle.
+Project for learning Data visualization using a Dataset from Kaggle.
 
-This includs Data from the Tokyo Summer Olympics 2020, which is downloaded and used as a csv file format so that you can easlie read every input and store it into lists for later ploting. 
-For this purpose I chose to learn more about the used python libary matplotlib as well as pandas.
+This includes Data from the Tokyo Summer Olympics 2020, which is downloaded and used as a CSV file format so that you can easily read every input and store it into lists for later plotting. 
+For this purpose, I chose to learn more about the used python library matplotlib. 
 
-Running trough some problems when working with pandas I decided to just use the csv Libary to take the input from the csv file and sort it for my specific use. 
+Running through some problems when working with pandas I decided to just use the CSV Libary to take the input from the CSV file and sort it for my specific use. 
 
-Trying to set Data into usefull relationship so that you actually vizualize it results into getting a basic understanding and information about the Summer Games. 
+Trying to set Data into a useful relationship so that you can visualize it results in getting a basic understanding and information about the Games. 
 
 
-For example what are the catoggersy with most participants :
+For example, which are the categories with most participants :
 
 ![image](/assets/images/Most_popular_Activity.png) 
 
-And also which country has the most Medals in total, most Gold Medals as well as most Silver Medals ans most Bronzemedals. 
-The Follwing images show comphressions between countrys in amount of each Medal. 
+And also which country has the won the most medals in total, most Gold Medals as well as most Silver Medals and most Bronze medals. 
+The following images show a quick comparison between countries in terms of Medals won.
 
 ![image](/assets/images/Number_of_total_Medals.png)
 
+
 ![image](/assets/images/GoldVSSilvermedals.png)
 
+
 ![image](/assets/images/GoldVsSilverVsBronze.png)
+
 
 Top 9 Countries:
 ![image](/assets/images/GoldVsSilvertop9png.png)
 
 
 
-If you take a specific country, what is its "favoirte" and most popular sport in each Country.
+If you take a specific country, what is its „favorite“ and most popular sport?
 
-Teste for Germany, Greece, England, Usa, Norwegen, Brazilien 
---> Aussage über die Favorisierteste Sportart in jedem Land? 
+Tested for Germany, Greece, England, USA , Norway, Brazil:  
+
 Germany:
 ![image](/assets/images/Popular_Sport_German_b.png)
 
-Intrestgliny enough there are very few Sports in Germany witch have high amount of paticipents. Therfore there is a very bright spectrum of all kind of sports.
+Intrestgliny enough there are very few Sports in Germany which have a high amount of participants. Therefore there is a very bright spectrum of all kinds of sports.
 
 ![image](/assets/images/Popular_Sport_German_a.png)
 
-Participant Count < 15: 
+
+By reducing the minimum amount of participants even furgterm, we get an even vaster spread of Sports: 
 
 ![image](/assets/images/Popular_Sport_Germany.png)
 
@@ -55,9 +59,3 @@ Other Countrys:
 
 
 ![image](/assets/images/Popular_Sport_Brazil.png)
-
-
-
-
-
-
