@@ -58,4 +58,3 @@ Analyzing popular sports in other countries:
   ![image](/assets/images/Popular_Sport_Brazil.png)
 
 These visualizations provide insights into the diverse sports preferences among different nations participating in the Tokyo Summer Games.
-
