@@ -1,60 +1,53 @@
 # Tokyo Olympic Summer Games
 
-This project is designed for learning data visualization using a dataset obtained from Kaggle. The dataset contains information from the Tokyo Summer Olympics 2020, downloaded in CSV format for easy data manipulation.
+This project focuses on learning data visualization using a dataset from Kaggle, specifically data from the Tokyo Summer Olympics 2020. The dataset is downloaded and utilized in CSV file format, making it easy to read every input and store it into lists for later plotting. For this purpose, I opted to learn more about the Python library Matplotlib.
 
-## Purpose
-The primary objective is to leverage the Python library Matplotlib for data visualization. While initially encountering challenges with Pandas, I opted to utilize the CSV library to efficiently manage input from the CSV file and organize it for subsequent plotting.
+Encountering some challenges while working with Pandas, I decided to use the CSV Library to extract input from the CSV file and organize it for my specific needs.
 
-## Exploring Relationships
-Efforts were made to establish meaningful relationships within the data, facilitating visualization for a better understanding of the Tokyo Summer Games.
+The goal is to visualize the results using the python libaries matplotlib and pandas and gain a basic understanding and insights into the Games.
 
-### Participant Categories
-Identifying the categories with the highest participation:
+## Categories with Most Participants
 
-![image](/assets/images/Most_popular_Activity.png)
+![Most Popular Activity](/assets/images/Most_popular_Activity.png)
 
-### Country Medal Standings
-Investigating which country secured the most total medals, gold medals, silver medals, and bronze medals:
+Explore which categories have the highest number of participants.
 
-![image](/assets/images/Number_of_total_Medals.png)
+## Medal Standings
 
-![image](/assets/images/GoldVSSilvermedals.png)
+Discover which country has won the most medals in total, including the highest number of Gold, Silver, and Bronze medals. The following images provide a quick comparison between countries in terms of the total number of medals won.
 
-![image](/assets/images/GoldVsSilverVsBronze.png)
+![Total Medals](/assets/images/Number_of_total_Medals.png)
 
-An interesting observation is that although the Russian Olympic Committee (ROC) has won considerably more silver medals than Japan (ROC = 28, Japan = 14), Japan has claimed significantly more gold medals. The USA displays a balanced distribution with 39 Gold Medals, 41 Silver Medals, and 33 Bronze Medals.
+![Gold vs Silver Medals](/assets/images/GoldVSSilvermedals.png)
+
+![Gold vs Silver vs Bronze](/assets/images/GoldVsSilverVsBronze.png)
+
+Interestingly, despite the Russian Olympic Committee (ROC) winning more silver medals than Japan (ROC = 28, Japan = 14), Japan has won significantly more gold medals. The USA has a balanced distribution with 39 Gold Medals, 41 Silver Medals, and 33 Bronze Medals.
 
 ### Top 9 Countries
-Comparing medal standings among the top 9 countries:
 
-![image](/assets/images/GoldVsSilvertop9png.png)
+![Top 9 Countries](/assets/images/GoldVsSilvertop9png.png)
 
-## Country-Specific Analysis
-For specific countries, the project explores their "favorite" and most popular sport.
+## Favorite Sports by Country
+
+Explore the favorite and most popular sports for specific countries:
 
 ### Germany
-Testing for Germany:
 
-![image](/assets/images/Popular_Sport_German_b.png)
+![Popular Sport in Germany B](/assets/images/Popular_Sport_German_b.png)
 
-Interestingly, Athletics emerges as the most participated sport in Germany, followed by a limited number of sports with substantial participation.
+Surprisingly, in Germany, the sport with the most participants is Athletics. After that, there are very few sports with a high number of participants.
 
-![image](/assets/images/Popular_Sport_German_a.png)
+![Popular Sport in Germany A](/assets/images/Popular_Sport_German_a.png)
 
-Further reducing the minimum number of participants reveals an even wider array of sports:
+By further reducing the minimum number of participants, we observe an even broader spread of sports in Germany.
 
-![image](/assets/images/Popular_Sport_Germany.png)
+![Popular Sport in Germany](/assets/images/Popular_Sport_Germany.png)
 
 ### Other Countries
-Analyzing popular sports in other countries:
 
-- Norway:
-  ![image](/assets/images/Popular_Sport_Norway.png)
+Explore the popular sports in other countries:
 
-- Greece:
-  ![image](/assets/images/Popular_Sport_Greece.png)
-
-- Brazil:
-  ![image](/assets/images/Popular_Sport_Brazil.png)
-
-These visualizations provide insights into the diverse sports preferences among different nations participating in the Tokyo Summer Games.
+- Norway: ![Popular Sport in Norway](/assets/images/Popular_Sport_Norway.png)
+- Greece: ![Popular Sport in Greece](/assets/images/Popular_Sport_Greece.png)
+- Brazil: ![Popular Sport in Brazil](/assets/images/Popular_Sport_Brazil.png)
